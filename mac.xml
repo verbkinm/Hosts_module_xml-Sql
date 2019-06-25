@@ -1,0 +1,27 @@
+<arp version="1">
+	<arp-cache>
+		<hostname>?</hostname>
+		<ip-address>192.168.0.232</ip-address>
+		<mac-address>f8:e9:03:83:33:f4</mac-address>
+		<interface>rl0</interface>
+		<expires>481</expires>
+		<type>ethernet</type>
+	</arp-cache>
+	<arp-cache>
+		<hostname>?</hostname>
+		<ip-address>192.168.100.12</ip-address>
+		<mac-address>00:25:22:93:d3:6c</mac-address>
+		<interface>rl0</interface>
+		<expires>854</expires>
+		<type>ethernet</type>
+	</arp-cache>
+	<arp-cache>
+		<hostname>?</hostname>
+		<ip-address>192.168.3.13</ip-address>
+		<mac-address>00:c0:26:a1:6e:f7</mac-address>
+		<interface>rl0</interface>
+		<permanent>true</permanent>
+		<published>true</published>
+		<type>ethernet</type>
+	</arp-cache>
+</arp>
