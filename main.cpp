@@ -181,10 +181,10 @@ int main(int argc, char *argv[])
         QString fileName(argv[1]);
 
         db = QSqlDatabase::addDatabase("QMYSQL", "mydb");
-        db.setHostName("192.168.100.253");
+        db.setHostName("192.168.0.1");
         db.setDatabaseName("hosts");
-        db.setUserName("root");
-        db.setPassword("tdXIeHAlHQZ0566e");
+        db.setUserName("user");
+        db.setPassword("password");
         bool ok = db.open();
 
         deb << "conected db = " << ok << "\n";
